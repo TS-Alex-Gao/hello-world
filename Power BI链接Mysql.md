@@ -20,11 +20,11 @@ flowchart LR
 
 ## 通过云端连接MySql
 > [!NOTE] 
-> 由于公司数据安全策略， <font color="#ff6600">MySql数据库只能通公司内网访问。</font>因此Power BI Server 不能直接链接到MySql数据库。因此，我们需要通过数据网关的方式来连接MySql数据库，完成Power BI报表的日常刷新。
+> 由于公司数据安全策略， <font color=#ff6600>MySql数据库只能通公司内网访问。</font>因此Power BI Server 不能直接链接到MySql数据库。因此，我们需要通过数据网关的方式来连接MySql数据库，完成Power BI报表的日常刷新。
 
 ## 使用数据网关连接MySql
 > [!IMPORTANT]
-> 无论使用哪种方式，都需要联系 Charles 创建数据链接。</br>
+> 使用数据网关连接MySql，需要联系 Charles 创建数据链接。</br>
 > 验证数据链接可以正常刷新数据后，再开始制作报表。
 
 ### 通过Connector/ODBC 连接MySql 【Local IT 推荐】
