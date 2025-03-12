@@ -2,7 +2,6 @@
 ## 问题点
 1. 如何使用Power BI Desktop 链接到MySql数据库;
 2. Power BI 报表上传到Power BI Service 后，如何链接到MySql数据库进行数据刷新；
-3. 
 
 ## 概述
 Power BI Server 链接MySql的三种方式:
